@@ -7,5 +7,5 @@ import (
 
 func TestPingScan(t *testing.T) {
 	allPings := PingScan("192.168.1.*")
-	fmt.Println(allPings[1].IP)
+	fmt.Println(len(allPings))
 }
